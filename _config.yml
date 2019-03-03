@@ -13,9 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: the title
-email: 404j.wright@gmail.com
-description: A Blog
+title: "Hi. I'm Jesse Wright."
+author: "Jesse Wright"
+email_me: "Email me here:"
+email: "404j.wright@gmail.com"
+description: "My Blog"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: cisphon
@@ -25,6 +27,17 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+
+# This is the front matter defaults.
+defaults:
+  - scope:
+      path: ""
+      type: "posts" # for each file in _posts
+    values:
+      layout: "post" # the layout becomes a default post
+      categories: "posts"
+      permalink: "/:categories/:year/:month/:day/:title"
+      author: "jesse"
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
