@@ -1,7 +1,6 @@
 ---
 layout: page
 title: About
-permalink: /about/
 ---
 
 My name is ***Jesse Wright*** and I'm a programmer and musician from the United States.

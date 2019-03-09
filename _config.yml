@@ -13,8 +13,9 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: "Hi. I'm Jesse Wright."
+title: "Jesse Wright"
 author: "Jesse Wright"
+home: "Home"
 email_me: "Email me here:"
 email: "404j.wright@gmail.com"
 description: "My Blog"
@@ -36,8 +37,23 @@ defaults:
     values:
       layout: "post" # the layout becomes a default post
       categories: "posts"
-      permalink: "/:categories/:year/:month/:day/:title"
-      author: "jesse"
+      author: "Jesse Wright"
+
+disqus:
+  shortname: jessewright.io
+
+google_analytics: UA-135278799-2
+
+header_pages:
+  - about.md
+  - programming.md
+  - resume.md
+
+minima:
+  social_links:
+    github: "cisphon" 
+    facebook: "cisphon"
+    linkedin: "cisphon"
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

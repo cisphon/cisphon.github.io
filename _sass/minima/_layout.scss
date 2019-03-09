@@ -1,4 +1,18 @@
 /**
+ * particles.js container
+ */
+#particles-js {
+  z-index: 1;
+  position: relative;
+}
+
+.box {
+  z-index: 2;
+  position: relative;
+}
+
+
+/**
  * Site header
  */
 .site-header {
@@ -11,7 +25,7 @@
   position: relative;
 }
 
-.site-title {
+.site-home {
   @include relative-font-size(1.625);
   font-weight: 300;
   letter-spacing: -1px;
