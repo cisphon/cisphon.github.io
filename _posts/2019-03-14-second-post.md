@@ -1,5 +1,5 @@
 ---
-title: "Python and Datastructures"
+title: "Python, Datastructures, and Algorithms"
 date:   2019-03-14 14:58 -0600
 ---
 
