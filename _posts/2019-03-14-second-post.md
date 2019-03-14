@@ -3,6 +3,8 @@ title: "Python, Datastructures, and Algorithms"
 date:   2019-03-14 14:58 -0600
 ---
 
+The Good, The Bad, and The Ugly.
+
 I woke up at 9 am this morning and started working on the code that I produced last night, it was a simple `Node` class and a starter class called `BST` (which is just an acronym for Binary Search Tree) that I created in Python. It was a feat for me because I primarily have programming experience in Java and I learned how to use the object orientation in Python the previous day.
 
 Over the past few days I've been reading the [Python 3.6.8 Documentation][python-docs] and coding along side it to drill the core concepts in my head through **learning by doing**. I read until Chapter 5 and finally decided that I should start trying to implement the fundamental data structures with the newfound knowledge.
