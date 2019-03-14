@@ -16,5 +16,5 @@ Anyway, today I'm going to enable comments on my website.
 *Carpe Diem.*
 
 [python-docs]: https://docs.python.org/3.6/
-[github-repo]: https://github.com/cisphon/CommonDataStructuresPython 
+[github-repo]: https://github.com/cisphon/CommonDataStructuresPython
 [order]: https://introcs.cs.princeton.edu/java/41analysis/
